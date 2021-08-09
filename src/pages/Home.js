@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 import ActorGrid from '../actor/ActorGrid';
 import MainPageLayout from '../components/MainPageLayout';
 import {apiGet} from '../misc/config';
@@ -11,6 +11,15 @@ const Home = () => {
     const onInputChange = ev => {
         setInput(ev.target.value);
     }; 
+    // useEffect allows us to hook different life cycle
+    //argument- callback fun and array of dependencies
+    // if something changes inside the dependencies the callback function will rerun
+    // useEffect(()=>{
+    //     console.log('use effect');
+    //     return () => {
+    //         console.log('exit'); // right before the next callback will be fire
+    //     }
+    // },[searchOption]); 
     const onSearch = ev => {
         
         apiGet(`/search/${searchOption}?q=${input}`)
