@@ -14,7 +14,7 @@ const Home = () => {
   const [input, setInput] = useLastQuery("");
   const [results, setResults] = useState(null);
   const [searchOption, setSearchOption] = useState("shows");
-  const isShowSearch = searchOption === "shows";
+  
   const onInputChange = (ev) => {
     setInput(ev.target.value);
   };
