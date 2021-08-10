@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/box-office/static/css/main.5fffadb5.chunk.css",
+    "main.js": "/box-office/static/js/main.3258d390.chunk.js",
+    "main.js.map": "/box-office/static/js/main.3258d390.chunk.js.map",
+    "runtime-main.js": "/box-office/static/js/runtime-main.35559d94.js",
+    "runtime-main.js.map": "/box-office/static/js/runtime-main.35559d94.js.map",
+    "static/js/2.9898492c.chunk.js": "/box-office/static/js/2.9898492c.chunk.js",
+    "static/js/2.9898492c.chunk.js.map": "/box-office/static/js/2.9898492c.chunk.js.map",
+    "static/js/3.3ccc6c95.chunk.js": "/box-office/static/js/3.3ccc6c95.chunk.js",
+    "static/js/3.3ccc6c95.chunk.js.map": "/box-office/static/js/3.3ccc6c95.chunk.js.map",
+    "index.html": "/box-office/index.html",
+    "static/css/main.5fffadb5.chunk.css.map": "/box-office/static/css/main.5fffadb5.chunk.css.map",
+    "static/js/2.9898492c.chunk.js.LICENSE.txt": "/box-office/static/js/2.9898492c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.35559d94.js",
+    "static/js/2.9898492c.chunk.js",
+    "static/css/main.5fffadb5.chunk.css",
+    "static/js/main.3258d390.chunk.js"
+  ]
+}
